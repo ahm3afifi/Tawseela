@@ -3,13 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		763BDBD523A828060080FC26 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763BDBD423A828060080FC26 /* GradientView.swift */; };
+		763BDBD723A829490080FC26 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763BDBD623A829490080FC26 /* RoundImageView.swift */; };
+		763BDBD923A829F00080FC26 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763BDBD823A829F00080FC26 /* RoundedShadowView.swift */; };
+		763BDBDB23A82A620080FC26 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763BDBDA23A82A620080FC26 /* CircleView.swift */; };
+		763BDBDD23A82BA20080FC26 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763BDBDC23A82BA20080FC26 /* RoundedShadowButton.swift */; };
+		763BDBE023A82F150080FC26 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763BDBDF23A82F150080FC26 /* UIView+Extensions.swift */; };
 		76645FA923A813490070ADAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76645FA823A813490070ADAF /* AppDelegate.swift */; };
 		76645FAB23A813490070ADAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76645FAA23A813490070ADAF /* SceneDelegate.swift */; };
-		76645FAD23A813490070ADAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76645FAC23A813490070ADAF /* ViewController.swift */; };
+		76645FAD23A813490070ADAF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76645FAC23A813490070ADAF /* HomeViewController.swift */; };
 		76645FB023A813490070ADAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76645FAE23A813490070ADAF /* Main.storyboard */; };
 		76645FB223A8134A0070ADAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76645FB123A8134A0070ADAF /* Assets.xcassets */; };
 		76645FB523A8134A0070ADAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76645FB323A8134A0070ADAF /* LaunchScreen.storyboard */; };
@@ -19,10 +25,16 @@
 /* Begin PBXFileReference section */
 		0AC8C246877999FBC6A71C24 /* Pods-Tawseela.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tawseela.debug.xcconfig"; path = "Target Support Files/Pods-Tawseela/Pods-Tawseela.debug.xcconfig"; sourceTree = "<group>"; };
 		0EA54C694EC613159B0959C8 /* Pods-Tawseela.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tawseela.release.xcconfig"; path = "Target Support Files/Pods-Tawseela/Pods-Tawseela.release.xcconfig"; sourceTree = "<group>"; };
+		763BDBD423A828060080FC26 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		763BDBD623A829490080FC26 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		763BDBD823A829F00080FC26 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		763BDBDA23A82A620080FC26 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		763BDBDC23A82BA20080FC26 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		763BDBDF23A82F150080FC26 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		76645FA523A813490070ADAF /* Tawseela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tawseela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76645FA823A813490070ADAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76645FAA23A813490070ADAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		76645FAC23A813490070ADAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76645FAC23A813490070ADAF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		76645FAF23A813490070ADAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76645FB123A8134A0070ADAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76645FB423A8134A0070ADAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,8 +60,41 @@
 				0AC8C246877999FBC6A71C24 /* Pods-Tawseela.debug.xcconfig */,
 				0EA54C694EC613159B0959C8 /* Pods-Tawseela.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		763BDBD123A827A90080FC26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		763BDBD223A827B60080FC26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				763BDBD423A828060080FC26 /* GradientView.swift */,
+				763BDBD623A829490080FC26 /* RoundImageView.swift */,
+				763BDBD823A829F00080FC26 /* RoundedShadowView.swift */,
+				763BDBDA23A82A620080FC26 /* CircleView.swift */,
+				763BDBDC23A82BA20080FC26 /* RoundedShadowButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		763BDBD323A827BD0080FC26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		763BDBDE23A82EF50080FC26 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				763BDBDF23A82F150080FC26 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		76645F9C23A813490070ADAF = {
@@ -73,9 +118,13 @@
 		76645FA723A813490070ADAF /* Tawseela */ = {
 			isa = PBXGroup;
 			children = (
+				763BDBDE23A82EF50080FC26 /* Extensions */,
+				763BDBD123A827A90080FC26 /* Model */,
+				763BDBD223A827B60080FC26 /* View */,
+				763BDBD323A827BD0080FC26 /* Controller */,
 				76645FA823A813490070ADAF /* AppDelegate.swift */,
 				76645FAA23A813490070ADAF /* SceneDelegate.swift */,
-				76645FAC23A813490070ADAF /* ViewController.swift */,
+				76645FAC23A813490070ADAF /* HomeViewController.swift */,
 				76645FAE23A813490070ADAF /* Main.storyboard */,
 				76645FB123A8134A0070ADAF /* Assets.xcassets */,
 				76645FB323A8134A0070ADAF /* LaunchScreen.storyboard */,
@@ -207,9 +256,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76645FAD23A813490070ADAF /* ViewController.swift in Sources */,
+				763BDBD723A829490080FC26 /* RoundImageView.swift in Sources */,
+				76645FAD23A813490070ADAF /* HomeViewController.swift in Sources */,
+				763BDBD923A829F00080FC26 /* RoundedShadowView.swift in Sources */,
+				763BDBE023A82F150080FC26 /* UIView+Extensions.swift in Sources */,
 				76645FA923A813490070ADAF /* AppDelegate.swift in Sources */,
+				763BDBD523A828060080FC26 /* GradientView.swift in Sources */,
+				763BDBDB23A82A620080FC26 /* CircleView.swift in Sources */,
 				76645FAB23A813490070ADAF /* SceneDelegate.swift in Sources */,
+				763BDBDD23A82BA20080FC26 /* RoundedShadowButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +412,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68NL7XQ986;
 				INFOPLIST_FILE = Tawseela/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,6 +432,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68NL7XQ986;
 				INFOPLIST_FILE = Tawseela/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
